@@ -20,6 +20,7 @@
 		32A595B37D0F4018CBD86988 /* libPods-RnIosNativeModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BBA1AF08B86CED0BB77E24 /* libPods-RnIosNativeModule.a */; };
 		815521D458B608D9A5DBB334 /* libPods-RnIosNativeModuleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5851E4C7DDD7592EDEBFD98C /* libPods-RnIosNativeModuleTests.a */; };
 		890ADAB3D029061296D6F013 /* libPods-RnIosNativeModule-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A8B99597C83221C8F81BBC /* libPods-RnIosNativeModule-tvOSTests.a */; };
+		C567CF8D233D032C006A2539 /* CalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C567CF8C233D032C006A2539 /* CalendarManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		89BBA1AF08B86CED0BB77E24 /* libPods-RnIosNativeModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnIosNativeModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB3D943880C2C879B7FE501 /* Pods-RnIosNativeModule-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnIosNativeModule-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RnIosNativeModule-tvOS/Pods-RnIosNativeModule-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		AFAE580051CB77B329E520BD /* Pods-RnIosNativeModuleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnIosNativeModuleTests.debug.xcconfig"; path = "Target Support Files/Pods-RnIosNativeModuleTests/Pods-RnIosNativeModuleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C567CF8C233D032C006A2539 /* CalendarManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarManager.m; sourceTree = "<group>"; };
+		C567CF8E233D0349006A2539 /* CalendarManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarManager.h; sourceTree = "<group>"; };
 		C91BF4815ADFF9ABE5E60F41 /* Pods-RnIosNativeModule-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnIosNativeModule-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RnIosNativeModule-tvOS/Pods-RnIosNativeModule-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		E65A6B864110702339C3666F /* Pods-RnIosNativeModule-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnIosNativeModule-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RnIosNativeModule-tvOSTests/Pods-RnIosNativeModule-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -159,6 +162,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				C567CF8C233D032C006A2539 /* CalendarManager.m */,
+				C567CF8E233D0349006A2539 /* CalendarManager.h */,
 				13B07FAE1A68108700A75B9A /* RnIosNativeModule */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RnIosNativeModuleTests */,
@@ -194,7 +199,6 @@
 				AFAE580051CB77B329E520BD /* Pods-RnIosNativeModuleTests.debug.xcconfig */,
 				83A944FDB85344D56DB8E186 /* Pods-RnIosNativeModuleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -530,6 +534,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				C567CF8D233D032C006A2539 /* CalendarManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
